@@ -8,8 +8,12 @@
 files: [
  {
   "source" : "/docs/*.md",
-  "translation" : "/docs/i18n/%language%/%original_file_name%",
-
+  "translation" : "/docs/i18n/%two_letters_code%/%original_file_name%",
+  "languages_mapping": {
+    "two_letters_code": {
+      "es-EM": espanol
+    }
+  },
   "ignore" : [
     "/docs/_coverpage.md",
     "/docs/_navbar.md",
